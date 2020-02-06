@@ -1,0 +1,89 @@
+body{
+    background: #393185 url(../img/login-page-bg.png) center repeat-x;
+    margin: 0;
+}
+h1{
+    font-size: 39px;
+    color: white;
+    
+    
+}
+h1,p{
+    margin: 0;
+    padding: 0;
+    margin-left: 44px;
+    margin-top: 26px;
+    
+}
+.top{
+    display: flex;
+ position: relative;
+    justify-content: space-between;
+}
+p{
+
+    position: absolute;
+    margin-top: 20px;
+    right: 0;
+    font-size: 35px;
+    background: red;
+    padding: 20px;
+    color: white;
+}
+form{
+    position: absolute;
+    top: 37%;
+    left: 58%;
+    margin-top: 67px;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.form{
+    padding: 29px 61px 31px 37px;
+    background: white;
+    width: 52%;
+    display: flex;
+    border-radius: 4px;
+    flex-direction: column;
+    
+}
+#sifre{
+    margin-top: 12px;
+}
+.form-top input{
+    padding: 12px 29px;
+    border: none;
+    font-size: 26px;
+    text-align: right;
+    background: #efefef;
+}
+.form-bottom{
+    margin-top: 12px;
+    display: flex;
+    width: 107%;
+    justify-content: space-between;
+}
+.form-bottom button:first-child{
+    width: 51%;
+    border: none;
+    padding: 7px 23px;
+    border-radius: 5px;
+    font-size: 16px;
+    color:white;
+    background: #aa00d3
+}
+.form-bottom button:last-child{
+    background: #393186;
+    color: white;
+       width: 44%;
+       
+       border-radius: 5px;
+       height: 43px;
+       border: none;
+  
+       font-size: 22px;
+   
+   
+}
